@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+:root {
+    --main-color: #062400;
+    --secondary-color: #eedfbe;
+    --title-font: "Jersey 10", serif;
+    --body-font: "Cabin", serif;
+}
+
+body {
+    background-color: #eedfbe;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.home {
+    padding-right: 20px;
+    padding-left: 15px;
+    font-family: var(--title-font);
+}
+
+.currentPage {
+    color: var(--secondary-color);
+    font-family: var(--title-font);
+    padding-right: 20px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.navLink {
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family: var(--title-font);
+}
+
+.title {
+    font-size: 70px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bio {
+    font-size: 18px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: var(--body-font);
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    color: var(--main-color);
+}
+
+.image {
+    max-width: 20%;
+    margin: auto;
+    display: block;
+    padding-top: 0;
+    box-shadow: 10px 10px var(--main-color)
+}
+
+.footer {
+    background-color: var(--main-color);
+    color: #d6f7d1;
+    position: fixed;
+    font-family: var(--body-font);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.footerText {
+    padding-left: 10px;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
