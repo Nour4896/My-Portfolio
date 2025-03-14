@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    --main-color: #062400;
-    --secondary-color: #eedfbe;
+    --main-color: #14380d;
+    --secondary-color: #cee6c7;
     --tertiary-color: #a0d396;
-    --background: #d1c3a8;
-    --title-font: "Jersey 10", serif;
+    --background: #9bbb9c;
+    --title-font: "Outfit", sans-serif;
     --body-font: "Cabin", serif;
 }
 
@@ -30,21 +30,23 @@ body {
     padding-right: 20px;
     padding-left: 15px;
     font-family: var(--title-font);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .currentPage {
     color: var(--tertiary-color);
     font-family: var(--title-font);
     padding-right: 20px;
-    padding-top: 18px;
+    padding-top: 14px;
     text-decoration: underline;
+    font-size: 14px;
 }
 
 .navLink {
     padding-right: 20px;
-    padding-top: 18px;
+    padding-top: 14px;
     font-family: var(--title-font);
+    font-size: 14px;
 }
 
 section {
@@ -105,10 +107,6 @@ a:hover {
     color: var(--tertiary-color);
 }
 
-.construction {
-    text-align: center;
-}
-
 .carousel {
     position: relative;
     margin: 0 auto;
@@ -122,6 +120,7 @@ a:hover {
     padding-top: 5px;
     margin-bottom: 20px;
     display: none;
+    font-weight: 700;
 }
 
 .carousel_subtitle--selected {
@@ -171,6 +170,74 @@ a:hover {
     opacity: 0.8;
 }
 
+.nameAndEmail {
+    display: flex;
+    width: 52%;
+    justify-content: space-between;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    padding-top: 5px;
+    display: block;
+    font-weight: 700;
+}
+
+.messageSubtitle {
+    font-size: 30px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    padding-top: 5px;
+    display: block;
+    margin: 0;
+    font-weight: 700;
+}
+
+.info {
+    width: 130%;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: var(--body-font);
+    font-size: 14px;
+    border: none;
+}
+
+.messageInfo {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    border-radius: 7px;
+    width: 60%;
+    height: 300px;
+    font-family: var(--body-font);
+    font-size: 14px;
+    margin: 6px 0 0 0;
+}
+
+.submit {
+    background: var(--main-color);
+    border: none;
+    border-radius: 3px;
+    font-family: var(--title-font);
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 @media only screen and (max-width: 600px) {
     header, footer {
         padding: 10px;
@@ -199,7 +266,7 @@ a:hover {
     }
 
     section {
-        padding: 60px 10px 70px 10px;
+        padding: 85px 10px 70px 10px;
         margin: 30px 0 0 0;
         display: block;
     }
@@ -221,5 +288,19 @@ a:hover {
     .footer {
         text-align: center;
         padding: 1px;
+    }
+
+    .carousel_img {
+        max-height: 60%;
+        box-shadow: 10px 10px var(--main-color)
+    }
+
+    .messageInfo {
+        width: 95%;
+    }
+
+    .nameAndEmail {
+        display: flex;
+        flex-direction: column;
     }
 }

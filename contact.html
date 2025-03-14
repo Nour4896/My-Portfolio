@@ -18,7 +18,22 @@
         
         <section>
             <h3 class="title">Let's Get in Touch</h3>
-            <p class="construction">Contact Form Under Construction</p>
+            <form id="contactForm">
+                <div class="nameAndEmail">
+                    <div class="item">
+                        <label class="subtitle" for="name">Your Name</label>
+                        <input class="info" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="item">
+                        <label class="subtitle" for="email:">Your Email</label>
+                        <input class="info" type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <label class="messageSubtitle" for="message">What can I do for you?</label>
+                <textarea class="messageInfo" id="message" name="message" required></textarea>
+
+                <button class="submit" type="submit">Send Message</button>
+            </form>
         </section>
 
         <footer class="footer">
