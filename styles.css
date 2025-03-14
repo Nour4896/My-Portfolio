@@ -117,8 +117,8 @@ a:hover {
     font-family: var(--title-font);
     color: var(--main-color);
     text-align: center;
-    padding-top: 5px;
     margin-bottom: 20px;
+    margin-top: 40px;
     display: none;
     font-weight: 700;
 }
@@ -223,7 +223,7 @@ a:hover {
 .submit {
     background: var(--main-color);
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     font-family: var(--title-font);
     color: var(--secondary-color);
     font-size: 25px;
@@ -232,10 +232,17 @@ a:hover {
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     cursor: pointer;
+    display: block;
 }
 
 .submit:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.error {
+    color: rgb(123, 15, 15);
+    font-family: var(--body-font);
+    font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {

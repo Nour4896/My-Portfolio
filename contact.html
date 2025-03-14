@@ -21,19 +21,24 @@
             <form id="contactForm">
                 <div class="nameAndEmail">
                     <div class="item">
+                        <span class="error" id="nameError"></span>
                         <label class="subtitle" for="name">Your Name</label>
-                        <input class="info" type="text" id="name" name="name" required>
+                        <input class="info" type="text" id="name" name="name">
                     </div>
                     <div class="item">
+                        <span class="error" id="emailError"></span>
                         <label class="subtitle" for="email:">Your Email</label>
-                        <input class="info" type="email" id="email" name="email" required>
+                        <input class="info" type="email" id="email" name="email">
                     </div>
                 </div>
+                <span class="error" id="messageError"></span>
                 <label class="messageSubtitle" for="message">What can I do for you?</label>
-                <textarea class="messageInfo" id="message" name="message" required></textarea>
+                <textarea class="messageInfo" id="message" name="message"></textarea>
 
                 <button class="submit" type="submit">Send Message</button>
             </form>
+
+            <p id="successMessage" class="success"></p>
         </section>
 
         <footer class="footer">
