@@ -147,7 +147,7 @@ a:hover {
 
 .carousel_nav {
     width: 100%;
-    padding: 20px 0;
+    padding: 105px 0;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -168,6 +168,22 @@ a:hover {
 .carousel_button--selected {
     background-color: var(--main-color);
     opacity: 0.8;
+}
+
+.detail {
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: var(--body-font);
+    font-weight: 400;
+    padding-top: 10px;
+    color: var(--main-color);
+    display: none;
+    text-align: center;
+}
+
+.detail--selected {
+    display: block;
 }
 
 .nameAndEmail {
@@ -299,7 +315,16 @@ a:hover {
 
     .carousel_img {
         max-height: 60%;
-        box-shadow: 10px 10px var(--main-color)
+        box-shadow: 10px 10px var(--main-color);
+    }
+
+    .carousel_nav {
+        padding: 285px 0;
+    }
+
+    .detail {
+        padding-top: 0;
+        margin-top: 0;
     }
 
     .messageInfo {

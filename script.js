@@ -13,21 +13,25 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 
     const buttons = carousel.querySelectorAll(".carousel_button");
     const subtitles = carousel.querySelectorAll(".carousel_subtitle");
+    const descriptions = carousel.querySelectorAll(".detail")
 
     buttons.forEach((button, i) => {
         button.addEventListener("click", () => {
             items.forEach(item => item.classList.remove("carousel_item--selected"));
             buttons.forEach(button => button.classList.remove("carousel_button--selected"));
             subtitles.forEach(subtitle => subtitle.classList.remove("carousel_subtitle--selected"));
+            descriptions.forEach(description => description.classList.remove("detail--selected"));
 
             items[i].classList.add("carousel_item--selected");
             buttons[i].classList.add("carousel_button--selected");
             subtitles[i].classList.add("carousel_subtitle--selected");
+            descriptions[i].classList.add("detail--selected");
         });
     });
     items[0].classList.add("carousel_item--selected");
     buttons[0].classList.add("carousel_button--selected");
     subtitles[0].classList.add("carousel_subtitle--selected");
+    descriptions[0].classList.add("detail--selected");
 });
 
 //Form Validation
