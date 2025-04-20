@@ -144,7 +144,8 @@ a:hover {
 
 .carousel_img {
     max-height: 99%;
-    box-shadow: 10px 10px var(--main-color)
+    box-shadow: 10px 10px var(--main-color);
+    cursor: pointer;
 }
 
 .carousel_nav {
@@ -164,7 +165,6 @@ a:hover {
     opacity: 0.2;
     border-radius: 50%;
     margin: 0 5px;
-    cursor: pointer;
 }
 
 .carousel_button--selected {
