@@ -101,6 +101,8 @@ section {
 a:link, a:visited, a:active { 
     text-decoration: none;
     color: var(--secondary-color);
+    transition: color 500ms;
+    transition-timing-function: ease-out;
   }
 
 a:hover {
@@ -249,6 +251,7 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     cursor: pointer;
     display: block;
+    transition: box-shadow 300ms;
 }
 
 .submit:hover {
