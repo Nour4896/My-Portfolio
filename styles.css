@@ -317,9 +317,319 @@ a:hover {
     color: var(--secondary-color);
 }
 
+@media only screen and (max-width: 1815px) {
+
+    #contact_about_main {
+        padding: 20px 20px 50px 20px;
+        margin-top: 0;
+    }
+
+    #welcome_blurb {
+        width: 30%;
+    }
+
+    .navLink, .home, .currentPage {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .image {
+        max-width: 80%;
+    }
+
+    .bio {
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer {
+        padding: 1px;
+    }
+
+    .carousel_img {
+        max-height: 90%;
+        box-shadow: 10px 10px var(--main-color);
+    }
+
+    .carousel_nav {
+        padding: 130px 0;
+    }
+
+    .detail {
+        padding-top: 10px;
+        margin-top: 0;
+    }
+
+    .messageInfo {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #contact_about_main {
+        padding: 50px 20px 50px 20px;
+        margin-top: 20px;
+    }
+
+    #welcome_blurb {
+        width: 35%;
+        margin-bottom: 210px;
+    }
+
+    .welcome_main {
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+
+    #welcome {
+        font-size: 60px;
+    }
+
+    .navLink, .home, .currentPage {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .image {
+        max-width: 80%;
+    }
+
+    .bio {
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer {
+        padding: 1px;
+    }
+
+    .carousel_img {
+        max-height: 90%;
+        box-shadow: 10px 10px var(--main-color);
+    }
+
+    .carousel_nav {
+        padding: 130px 0;
+    }
+
+    .detail {
+        padding-top: 10px;
+        margin-top: 0;
+    }
+
+    .messageInfo {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    #contact_about_main {
+        padding: 50px 20px 50px 20px;
+        margin-top: 20px;
+    }
+
+    #welcome_blurb {
+        width: 40%;
+        margin-bottom: 220px;
+    }
+
+    .welcome_main {
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    #welcome {
+        font-size: 45px;
+    }
+
+    .navLink, .home, .currentPage {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .image {
+        max-width: 80%;
+    }
+
+    .bio {
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer {
+        padding: 1px;
+    }
+
+    .carousel_img {
+        max-height: 90%;
+        box-shadow: 10px 10px var(--main-color);
+    }
+
+    .carousel_nav {
+        padding: 145px 0;
+    }
+
+    .detail {
+        padding-top: 10px;
+        margin-top: 0;
+    }
+
+    .messageInfo {
+        width: 95%;
+    }
+
+    .nameAndEmail {
+        width: 65%;
+    }
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    #contact_about_main {
+        padding: 50px 20px 50px 20px;
+        margin-top: 20px;
+    }
+
+    #welcome_blurb {
+        width: 50%;
+        margin-bottom: 220px;
+    }
+
+    .welcome_main {
+        padding-top: 250px;
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    #welcome {
+        line-height: 70px;
+        font-size: 35px;
+    }
+
+    .nameAndEmail {
+        width: 75%;
+    }
+
+    .carousel_nav {
+        padding: 160px 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #welcome_blurb {
+        width: 55%;
+        margin-bottom: 230px;
+    }
+
+    .welcome_main {
+        padding-top: 250px;
+    }
+
+    .nameAndEmail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .carousel_subtitle {
+        font-size: 35px;
+    }
+
+    .carousel_nav {
+        padding: 185px 0;
+    }
+
+    .detail {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #welcome_blurb {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 230px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .carousel_subtitle {
+        font-size: 30px;
+    }
+
+    .carousel_nav {
+        padding: 210px 0;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     header, footer {
         padding: 10px;
+    }
+
+    #welcome_blurb {
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 190px;
+        font-size: 16px;
+    }
+
+    .welcome_main {
+        font-size: 40px;
+    }
+
+    #welcome {
+        font-size: 24px;
+        line-height: 50px;
     }
 
     .header {
@@ -345,13 +655,22 @@ a:hover {
     }
 
     section {
-        padding: 85px 10px 70px 10px;
+        padding: 50px 10px 70px 10px;
         margin: 30px 0 0 0;
         display: block;
     }
 
     .title {
-        font-size: 60px;
+        font-size: 32px;
+        margin-top: 0;
+        line-height: 0;
+        margin-bottom: 70px;
+    }
+
+    .carousel_subtitle {
+        font-size: 20px;
+        margin-bottom: 0;
+        line-height: 0;
     }
 
     .image {
