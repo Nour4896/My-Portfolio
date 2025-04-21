@@ -10,6 +10,10 @@
     --body-font: "Cabin", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background);
     margin: 0 10% 0 10%;
@@ -19,7 +23,6 @@ body {
     display: flex;
     position: fixed;
     z-index: 10;
-    top: 0;
     left: 0;
     width: 100%;
     background-color: var(--main-color);
@@ -50,11 +53,15 @@ body {
 }
 
 section {
-    padding: 20px 20px 50px 20px;
+    padding: 1px 20px 50px 20px;
     margin: 20px;
     background-color: var(--secondary-color);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact_about_main {
+    padding: 90px 20px 50px 20px;
 }
 
 .title {
@@ -62,7 +69,8 @@ section {
     font-family: var(--title-font);
     color: var(--main-color);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    line-height: 0;
 }
 
 .bio {
@@ -101,7 +109,7 @@ section {
 a:link, a:visited, a:active { 
     text-decoration: none;
     color: var(--secondary-color);
-    transition: color 500ms;
+    transition: color 0.2s;
     transition-timing-function: ease-out;
   }
 
@@ -262,6 +270,39 @@ a:hover {
     color: rgb(123, 15, 15);
     font-family: var(--body-font);
     font-size: 16px;
+}
+
+#welcome {
+    padding-top: 200px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    font-size: 80px;
+    margin: 8px 100px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#welcome_blurb {
+    font-family: var(--body-font);
+    width: 26%;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+    font-size: 25px;
+    font-weight: 600;
+    transition: transform 200ms;
+}
+
+#welcome_blurb:hover {
+    transform: translate(0px, -3px);
+}
+
+#welcome_style {
+    color: var(--main-color);
+}
+
+#welcome_style:hover {
+    color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 600px) {
